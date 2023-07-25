@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    height: 500px;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 7px 5px 4px 1px #8c8b8a;
+    transition: 0.3s ease-in-out;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.btn {
+    border: none;
+    background-color:#00df9a;
+    color: white;
+}
+
+p{
+color: white;
+font-weight: bold;
+
+}
